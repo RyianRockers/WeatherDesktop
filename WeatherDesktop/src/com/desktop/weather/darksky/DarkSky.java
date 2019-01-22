@@ -6,7 +6,7 @@ import com.desktop.weather.web.WebResponse;
 import javax.swing.*;
 
 public class DarkSky extends WebResponse implements JsonReader{
-    private String url = "https://api.darksky.net/forecast/046201017f10eee4e0f0b8b7f499afcf/";
+    private String url = "https://api.darksky.net/forecast/<KEY>/";
     private String coordinates = "";
     private StringBuilder strBuilder = new StringBuilder();
 
