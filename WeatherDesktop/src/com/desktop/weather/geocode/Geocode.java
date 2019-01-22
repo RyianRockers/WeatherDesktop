@@ -5,7 +5,7 @@ import com.desktop.weather.web.WebResponse;
 import javax.swing.*;
 
 public class Geocode extends WebResponse implements JsonReader {
-    private String url  = "https://maps.googleapis.com/maps/api/geocode/json?key=AIzaSyArov1ozq4Nl_qXcBxbjDr4M2BndBK4sAc&address=";
+    private String url  = "https://maps.googleapis.com/maps/api/geocode/json?key=<KEY>c&address=";
     private String address;
     private String coordinates;
 
